@@ -81,3 +81,13 @@ body {
 .btn-add-deck {
 	margin-top: 11px
 }
+
+.git-hub-link{
+	color: #ffffff;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.git-hub-link:hover{
+	color: #ffffff !important;
+}

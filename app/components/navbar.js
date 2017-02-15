@@ -9,7 +9,7 @@ export default class Navbar extends React.Component {
 						<a className="navbar-brand" href="#">Dev Bootcamp</a>
 					</div>
 					<div className="navbar-right">
-
+						<a className="git-hub-link" href="https://github.com/krupatel/react-basic-bootcamp" target="_blank"> Git hub link</a>
 					</div>
 				</div>
 			</nav>

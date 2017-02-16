@@ -2,6 +2,9 @@ import React from 'react'
 import TweetItem from "./tweet-item"
 
 export default class DeckListItem extends React.Component {
+	constructor(props){
+		super(props)
+	}
 	render() {
 		return (
 			<div className="deck-list">
@@ -9,11 +12,11 @@ export default class DeckListItem extends React.Component {
 					Handle 1
 				</div>
 				<div className="deck-body">
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
+					{
+						this.props.tweets || this.props.tweets.map((tweet) => {
+							return <TweetItem data={tweet}/>
+						})
+					}
 				</div>
 			</div>
 		)

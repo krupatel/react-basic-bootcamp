@@ -2,6 +2,9 @@ import React from 'react'
 
 
 export default class Deck extends React.Component {
+	constructor(props){
+		super(props)
+	}
 	render() {
 		return (
 			<div className="media tweet-item">
@@ -12,7 +15,7 @@ export default class Deck extends React.Component {
 					</a>
 				</div>
 				<div className="media-body">
-					<p className="media-heading">Media heading</p>
+					<p className="media-heading">Media heading {this.props.data}</p>
 
 					<p className="media-content">
 						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,

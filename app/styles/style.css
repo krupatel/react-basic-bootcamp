@@ -1,10 +1,34 @@
-html {
-	min-height:100%;
+* {
+	margin: 0;
+}
+html, body, #root, .app {
+	height: 100%;
 }
 
-body {
-	padding-top:50px;
+
+.page-wrap {
+	padding-top: 50px;
+	min-height: 100%;
+	/* equal to footer height */
+	margin-bottom: -42px;
 }
+.page-wrap:after {
+	content: "";
+	display: block;
+}
+.site-footer, .page-wrap:after {
+	height: 42px;
+}
+
+.site-footer {
+	background: #222;
+	color: #ffffff;
+}
+
+.site-footer p {
+	margin-top: 10px;
+}
+
 
 /* Deck page */
 .deck-wrap {

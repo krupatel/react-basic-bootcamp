@@ -16,12 +16,10 @@ export default class Home extends React.Component {
 
 	render() {
 		return (
-			<div id="welcome-page">
-				<div className="container">
-					<div className="row">
-						<h2>Welcome to DEV Bootcamp !!!</h2>
-						<Link to="/deck">Go to twitter deck.</Link>
-					</div>
+			<div className="container home">
+				<div className="row">
+					<h2>Welcome to DEV Bootcamp !!!</h2>
+					<Link to="/deck">Go to twitter deck.</Link>
 				</div>
 			</div>
 		)

@@ -16,5 +16,5 @@ ReactDOM.render(
 			<Route path="timer" component={Timer}/>
 		</Route>
 	</Router>
-	, document.querySelector('#app')
+	, document.querySelector('#root')
 );

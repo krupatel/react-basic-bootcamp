@@ -1,6 +1,5 @@
 import React from 'react'
-
-import Navbar from '../components/navbar'
+import NavigationBar from '../components/navbar'
 
 export default class App extends React.Component {
 	constructor(props) {
@@ -9,11 +8,13 @@ export default class App extends React.Component {
 
 	render() {
 		return (
-			<div className="viewport">
-				<Navbar />
-				{
-					this.props.children
-				}
+			<div className="app">
+				<NavigationBar />
+				<div className="content">
+					{
+						this.props.children
+					}
+				</div>
 			</div>
 		)
 	}

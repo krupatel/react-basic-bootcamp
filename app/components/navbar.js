@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router'
 
-export default class Navbar extends React.Component {
+export default class NavigationBar extends React.Component {
 	render() {
 		return (
 			<nav className="navbar navbar-inverse navbar-fixed-top">

@@ -18,8 +18,7 @@ export default class Deck extends React.Component {
 					<p className="media-heading">Media heading {this.props.data}</p>
 
 					<p className="media-content">
-						Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-						tempus viverra turpis.
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur tortor quis velit iaculis, eu tempus urna <lobortis className=""></lobortis>
 					</p>
 				</div>
 			</div>

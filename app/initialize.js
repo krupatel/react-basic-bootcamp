@@ -3,15 +3,15 @@ import React from 'react'
 import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 
 import App from 'pages/app'
-import Welcome from 'pages/welcome'
+import Home from 'pages/home'
 import Deck from 'pages/deck'
 import Timer from 'components/timer'
 
 ReactDOM.render(
 	<Router history={browserHistory}>
 		<Route path="/" component={App}>
-			<IndexRoute component={Welcome}/>
-			<Route path="welcome" component={Welcome}/>
+			<IndexRoute component={Home}/>
+			<Route path="home" component={Home}/>
 			<Route path="deck" component={Deck}/>
 			<Route path="timer" component={Timer}/>
 		</Route>

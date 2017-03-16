@@ -9,7 +9,9 @@ export default class DeckListWrap extends React.Component {
 	render() {
 		return (
 			<div className="deck-wrap clearfix">
-				 <DeckList tweets={[1,2,3]}/>
+				 <DeckList />
+				 <DeckList />
+				 <DeckList />
 			</div>
 		)
 	}

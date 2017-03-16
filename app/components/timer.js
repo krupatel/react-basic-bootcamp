@@ -3,7 +3,6 @@ import React from 'react'
 export default class Timer extends React.Component {
 	constructor(props) {
 		super(props);
-		console.log(this.props.counter);
 		this.state = {secondsElapsed: this.props.counter || 0};
 	}
 

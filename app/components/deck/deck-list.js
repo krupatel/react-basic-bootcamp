@@ -13,11 +13,11 @@ export default class DeckListItem extends React.Component {
 					Handle 1
 				</div>
 				<div className="deck-body">
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
-					<TweetItem />
+					{
+						this.props.tweets ? this.props.tweets.map((tweet) => {
+							return <TweetItem name={tweet.name} />
+						}) : <div>No tweets</div>
+					}
 				</div>
 			</div>
 		)

@@ -3,7 +3,9 @@ import React from 'react'
 export default class Timer extends React.Component {
 	constructor(props) {
 		super(props);
-		this.state = {secondsElapsed: this.props.counter || 0};
+		this.state = {
+			secondsElapsed: this.props.counter || 0
+		};
 	}
 
 	tick() {

@@ -7,9 +7,10 @@ export default class DeckListWrap extends React.Component {
 	}
 
 	render() {
+		let tweets = [{name: 'Krunal'},{name: 'Krunal1'},{name: 'Krunal2'}];
 		return (
 			<div className="deck-wrap clearfix">
-				 <DeckList />
+				 <DeckList tweets={tweets} />
 				 <DeckList />
 				 <DeckList />
 			</div>

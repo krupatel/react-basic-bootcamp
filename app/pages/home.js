@@ -18,12 +18,8 @@ export default class Home extends React.Component {
 		return (
 			<div className="container home">
 				<div className="row">
-					<div className="col-lg-3">
-						<img src="http://www.theholidayspot.com/patrick/images/st-patricks-day-beer.jpg" />
-					</div>
-					<div className="col-lg-9">
-						<h2>Welcome to DEV Bootcamp !!!</h2>
-						<p>Happy St Patrick's Day !!!</p>
+					<div className="col-lg-12">
+						<h2>Happy St Patrick's Day !!!</h2>
 						<Link to="/deck">Go to twitter deck.</Link>
 					</div>
 				</div>
